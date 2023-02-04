@@ -1,0 +1,32 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT Photo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailkaya83/PCAT.git"
+  },
+  "keywords": [
+    "PCAT"
+  ],
+  "author": "ISMAIL KAYA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailkaya83/PCAT/issues"
+  },
+  "homepage": "https://github.com/ismailkaya83/PCAT#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  },
+  "prettier": {
+    "tabWidth":2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
