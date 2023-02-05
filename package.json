@@ -4,7 +4,8 @@
   "description": "PCAT Photo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,13 +21,17 @@
   },
   "homepage": "https://github.com/ismailkaya83/PCAT#readme",
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "prettier": "^2.8.3"
   },
   "prettier": {
-    "tabWidth":2,
+    "tabWidth": 2,
     "useTabs": false,
     "semi": true,
     "singleQuote": true,
     "trailingComma": "es5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

@@ -1,7 +1,14 @@
-const fn = function () {
-  console.log('fn');
-};
+const express = require('express');
+const app = express();
+const path = require('path');
 
-const fn2 = function () {
-  console.log('fn2');
-};
+app.use(express.static('public'));
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
